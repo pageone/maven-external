@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.readystatesoftware</groupId>
+    <artifactId>mapviewballoons</artifactId>
+    <version>1.0.0</version>
+    <packaging>apklib</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<java.version>1.6</java.version>
+		<android.version>4.0.3_r3</android.version>
+		<android.platform>15</android.platform>
+                <android.maps.version>15_r2</android.maps.version>
+	</properties>
+
+   <dependencies>
+		<dependency>
+			<groupId>android</groupId>
+			<artifactId>android</artifactId>
+                        <version>${android.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+				<groupId>com.google.android.maps</groupId>
+				<artifactId>maps</artifactId>
+				<version>${android.maps.version}</version>
+			</dependency>
+                
+   </dependencies>
+
+   <build>
+<sourceDirectory>src</sourceDirectory>
+
+<plugins>
+
+
+<plugin>
+					<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+					<artifactId>android-maven-plugin</artifactId>
+					<version>3.2.0</version>
+					<configuration>
+						<sdk>
+							<platform>${android.platform}</platform>
+						</sdk>
+					</configuration>
+					<extensions>true</extensions>
+				</plugin>    
+
+
+
+</plugins>
+
+
+
+   </build>
+
+
+<distributionManagement>
+  <repository>
+    <id>gh-pages</id>
+    <url>file:///${basedir}/../../maven-external/release</url>
+  </repository>
+</distributionManagement>
+
+
+
+</project>
