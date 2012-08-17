@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Android String Replacer Plugin</name>
+      <prefix>android-stringreplacer</prefix>
+      <artifactId>android-stringreplacer-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
