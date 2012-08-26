@@ -3,10 +3,11 @@
   <groupId>crittercism</groupId>
   <artifactId>crittercism</artifactId>
   <versioning>
-    <release>2.1.3r1-crashonly</release>
+    <release>2.1.7-crashonly</release>
     <versions>
       <version>2.1.3r1-crashonly</version>
+      <version>2.1.7-crashonly</version>
     </versions>
-    <lastUpdated>20120615221323</lastUpdated>
+    <lastUpdated>20120826172351</lastUpdated>
   </versioning>
 </metadata>
