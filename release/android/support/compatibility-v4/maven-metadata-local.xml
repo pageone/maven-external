@@ -3,10 +3,11 @@
   <groupId>android.support</groupId>
   <artifactId>compatibility-v4</artifactId>
   <versioning>
-    <release>r11</release>
+    <release>r13</release>
     <versions>
       <version>r11</version>
+      <version>r13</version>
     </versions>
-    <lastUpdated>20130107155915</lastUpdated>
+    <lastUpdated>20130517202344</lastUpdated>
   </versioning>
 </metadata>
